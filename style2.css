@@ -18,7 +18,7 @@
     to{left: -32%;}
 }
 @keyframes body-anim {
-    from{background-color: black;}
+    from{background-color: yellow;}
     to{background-color: #206a5d;}
 }
 @keyframes join-btn-anim {
