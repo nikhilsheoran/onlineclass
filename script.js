@@ -18,7 +18,7 @@ const classLink = {
     "English":"https://us04web.zoom.us/j/2642201759?pwd=N2loYnhwWDJTdG5TKzNiUndEQlc0dz09",
     "Physics":"https://us04web.zoom.us/j/5556312068?pwd=bHUzSjBZTytoNC9hOEpKUlM0cDNnUT09",
     "Chemistry":"https://us02web.zoom.us/j/7523800259?pwd=bkxFSS9PRzF4Q1M0VVdvNG9BcG9mQT09",
-    "Maths":"https://us04web.zoom.us/j/8826740115?pwd=M0dmSVlZcnRHbFNKVEtTY21IY1FqUT09",
+    "Maths":"https://us04web.zoom.us/j/6224028817?pwd=YnlaYVZYeXgzcU8yQ3poNjJPL0V4Zz09",
     "Computer":"https://us04web.zoom.us/j/5853556094?pwd=i6MWQ9g2m6xaarxCj-4QPwBjuZR6"
 };
 
