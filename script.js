@@ -108,11 +108,12 @@ function className(num){
 }
 let initialClass = className(blockNum());
  function readTimeTable(){
+     const classRN = className(blockNum());
      if (classRN != initialClass){
         document.getElementById("join-btn-rn").outerHTML = document.getElementById("join-btn-rn").outerHTML;
         initialClass = classRN;
     }
-    const classRN = className(blockNum());
+
     document.getElementById("english-btn").addEventListener('click',() => {
         window.open(classLink["English"], "_self");
     });
@@ -128,8 +129,7 @@ let initialClass = className(blockNum());
     document.getElementById("computer-btn").addEventListener('click',() => {
         window.open(classLink["Computer"], "_self");
     });
-    console.log(classRN);
-    
+   
     if (blockNum() >=0 && blockNum() <= 4 && classRN != "CTBlock"){
         document.getElementById("join-btn-rn").addEventListener('click',() => {
             window.open(classLink[classRN], "_self");
