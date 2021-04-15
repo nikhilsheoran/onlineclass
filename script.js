@@ -106,7 +106,12 @@ function className(num){
     return timeTable[dayNumToStr(dayToday)][num];
 
 }
+let initialClass = className(blockNum());
  function readTimeTable(){
+     if (classRN != initialClass){
+        document.getElementById("join-btn-rn").outerHTML = document.getElementById("join-btn-rn").outerHTML;
+        initialClass = classRN;
+    }
     const classRN = className(blockNum());
     document.getElementById("english-btn").addEventListener('click',() => {
         window.open(classLink["English"], "_self");
