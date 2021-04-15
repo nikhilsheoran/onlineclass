@@ -128,7 +128,7 @@ let initialClass = className(blockNum());
     document.getElementById("computer-btn").addEventListener('click',() => {
         window.open(classLink["Computer"], "_self");
     });
-
+    console.log(classRN);
     
     if (blockNum() >=0 && blockNum() <= 4 && classRN != "CTBlock"){
         document.getElementById("join-btn-rn").addEventListener('click',() => {
